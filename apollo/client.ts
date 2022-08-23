@@ -11,7 +11,7 @@ function createClient() {
         cache: new InMemoryCache(),
         link: from([
             new HttpLink({
-                uri: process.env.URI
+                uri: process.env.NEXT_PUBLIC_URI
             })
         ])
     })
